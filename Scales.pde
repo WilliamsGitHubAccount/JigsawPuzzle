@@ -111,10 +111,10 @@ class Piece {
   void drawSquare(int x, int y, int size) {
     fill(c);
     noStroke();
-    square(x*size, y*size, size);
+    rect(x*size, y*size, x*size+size, y*size+size);
   }
 
-  void drawPiece(int x, int y, int size) {
+  void drawPiece(int x, int y, int siwwze) {
     fill(c);
     noStroke();
 
